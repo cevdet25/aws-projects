@@ -10,7 +10,7 @@ def second():
 
 @app.route('/third')
 def third():
-     return 'This is third page'
+     return 'This is third page enthusiast'
 
 @app.route('/fourth/<string:id>')
 def fourth(id):
@@ -18,5 +18,5 @@ def fourth(id):
 
 if __name__ == '__main__':
 
-     # app.run(debug=True)
-     app.run(host= '0.0.0.0', port=80)
+     app.run(debug=True)
+     # app.run(host= '0.0.0.0', port=80)
